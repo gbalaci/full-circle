@@ -1,0 +1,56 @@
+.container {
+    background-image: url("https://images.unsplash.com/photo-1557683304-673a23048d34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60");
+    background-position:center;
+    background-size: 100%;
+    overflow-y: scroll;
+    height:400vh;
+}
+.title {
+    font-family: 'Unbounded', cursive;
+    color: white;
+    text-shadow: 10em;
+    font-size: x-large;
+    text-align: center;
+    padding: 20%;
+    z-index: 1;
+}
+
+.circle {
+    height: 300px;
+    width: 300px;
+    background-color: #22356474;
+    border-radius: 50%;
+    position: absolute;
+    top:30%;
+    left:39%;
+    right: 39%;
+    z-index: 0;
+  }
+
+.signup {
+    width : 500px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    position: absolute;
+    top:80%;
+    left:33%;
+    right: 39%;
+    display: flex;
+    align-items: center;
+}
+
+.signup:hover {
+    background-color: gainsboro;
+}
+
+.signText {
+    position: absolute;
+    left: 5%;
+    color: gray;
+}
+
+.goal {
+    position: absolute;
+    font-family: 'Unbounded', cursive;
+}

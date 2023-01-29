@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Modal, Paper} from "@mui/material";
+import {Card, Chip, Modal, Paper} from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
@@ -9,12 +9,15 @@ import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
+import AddIcon from '@mui/icons-material/Add';
+import Grid from "@mui/material/Grid";
 
 function NewPostModal(props) {
     const {open, onClose} = props;
     const [title, setTitle] = React.useState('');
     const [description, setDescription] = React.useState('');
     const [image, setImage] = React.useState('');
+    const [tags, setTags] = React.useState([]);
 
     return (
         <Modal
@@ -82,6 +85,20 @@ function NewPostModal(props) {
                             </Button>
                         </Box>
                     </Paper>
+                    <Typography variant="h6" component="div" sx={{m: 3, mt: -1, width: '95%'}}>
+                        Tags
+                    </Typography>
+
+                    <Box sx={{display: "flex", flexDirection: "row", m: 3, mt: -1, width: '95%'}}>
+                        <Chip icon={<AddIcon/>} onClick={() => {}} label="Add Tag"/>
+                        {tags.map((tag) => (
+                            <Chip key={tag} label={tag} variant="outlined" onDelete={() => {
+                                tags.remove(tag)
+                                setTags(tags);
+                            }}/>
+                        ))}
+                    </Box>
+
                 </Box>
             </Card>
         </Modal>
