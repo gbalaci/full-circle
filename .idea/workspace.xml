@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af316d88-cd80-4450-b44f-980604ef4161" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/auth/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/auth/signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/posts/discover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/posts/following.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/posts/forMe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/posts/newPost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/posts/postWithID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/appbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/drawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/newPostFab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/postPreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/useAuth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +36,7 @@
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,6 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/georgebalaci/dev/full-circle/src/assets",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -42,12 +61,17 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/georgebalaci/dev/full-circle/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/georgebalaci/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/223.8214.51/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/app/account/login" />
       <recent name="$PROJECT_DIR$/src/app" />
     </key>
@@ -78,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674936594060</updated>
       <workItem from="1674936595187" duration="341000" />
-      <workItem from="1674936951663" duration="6907000" />
+      <workItem from="1674936951663" duration="24496000" />
     </task>
     <servers />
   </component>
